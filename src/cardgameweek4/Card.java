@@ -10,7 +10,7 @@ public class Card {
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
         private final Value value;
-        
+        //change made in repository
         public Card(Suit s, Value gVal)
         {
            suit =s;
